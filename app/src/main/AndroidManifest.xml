@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jakir_mcom.fbs">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.jakir_mcom.fbs.About"></activity>
+        <activity android:name="com.jakir_mcom.fbs.AddStock" />
+        <activity android:name="com.jakir_mcom.fbs.Shoes" />
+        <activity android:name="com.jakir_mcom.fbs.BottomWear" />
+        <activity android:name="com.jakir_mcom.fbs.Formals" />
+        <activity android:name="com.jakir_mcom.fbs.tShirts" />
+        <activity android:name="com.jakir_mcom.fbs.DisplayItem" />
+        <activity android:name="com.jakir_mcom.fbs.WomensClothing" />
+        <activity android:name="com.jakir_mcom.fbs.MensClothing" />
+        <activity android:name="com.jakir_mcom.fbs.OtherItems" />
+        <activity android:name="com.jakir_mcom.fbs.Books" />
+        <activity android:name="com.jakir_mcom.fbs.Electronics" />
+        <activity android:name="com.jakir_mcom.fbs.Clothing" />
+        <activity android:name="com.jakir_mcom.fbs.CurrentOrderStatus" />
+        <activity android:name="com.jakir_mcom.fbs.AcceptOrders" />
+        <activity android:name="com.jakir_mcom.fbs.AddStaff" />
+        <activity android:name="com.jakir_mcom.fbs.PlaceOrder" />
+        <activity android:name="com.jakir_mcom.fbs.StaffLogin" />
+        <activity android:name="com.jakir_mcom.fbs.StaffHomePage" />
+        <activity android:name="com.jakir_mcom.fbs.AdminHomePage" />
+        <activity android:name="com.jakir_mcom.fbs.AdminLogin" />
+        <activity
+            android:name="com.jakir_mcom.fbs.HomePageActivity"
+            android:label="@string/title_activity_home_page"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.jakir_mcom.fbs.RegisterPage" />
+        <activity android:name="com.jakir_mcom.fbs.LoginPage" />
+        <activity android:name="com.jakir_mcom.fbs.RegLogChoice" />
+        <activity android:name="com.jakir_mcom.fbs.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
